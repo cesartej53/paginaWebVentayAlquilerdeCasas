@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="transparente">
+        <img src="img/logo.svg" alt="Logo Emperial Real State">
+        <nav>
+            <a href="#" class="activo">Inicio</a>
+            <a href="ventas.html">Venta</a>
+            <a href="#">Alquiler</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <div class="hero">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="hero-logo">
+            <img src="img/logo-frame.svg" alt="Logo emperial real state">
+        </div>
+        <a href="#pr" class="hero-down">
+            <img src="img/down.svg" alt="Flecha abajo">
+        </a>
+    </div>
+
+    <div id="burger">
+        <div class="barra superior"></div>
+        <div class="barra media"></div>
+        <div class="barra inferior"></div>
+    </div>
+    <div class="menu">
+        <nav>
+            <a href="#">Inicio</a>
+            <hr>
+            <a href="ventas.html">Venta</a>
+            <hr>
+            <a href="#">Alquiler</a>
+            <hr>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <p class="copyright">&copy; ACME Inc</p>
+    </div>
+
+    <div class="fila primera">
+        <span id="pr">&nbsp;</span>
+        <div class="col-66">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit quis corrupti impedit sequi eius tempore nostrum placeat deleniti accusantium beatae unde veritatis, quae totam officiis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem magnam sed officiis necessitatibus omnis facilis.</p>
+        </div>
+
+        <div class="col-33">
+            <img src="img/thumb4.jpg" alt="imagen casa">           
+        </div>
+    </div>
+    <div class="fila">
+        <div class="col-50">
+            <img src="img/thumb5.jpg" alt="">
+        </div>
+        <div class="col-50">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, veritatis. Et quam sequi illo, totam adipisci ducimus eos dolor atque sunt, nihil expedita consequatur laborum nam quo dolorum sint. Reprehenderit omnis placeat eius vero sapiente.
+        </div>
+    </div>
+    <div class="fila parallax">
+        <div class="col-100">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="col-50 caja-nav flex-column-center">
+            <img src="img/comprar.svg" alt="">
+            <a href="ventas.html">Venta</a>
+        </div>
+        <div class="col-50 caja-nav flex-column-center">
+            <img src="img/alquilar.svg" alt="">
+            <a href="#">Alquiler</a>
+        </div>
+    </div>
+    <div class="fila">
+        <div class="col-100 flex-column-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero!</p>
+            <form class="contacto">
+                <div class="fila">
+                    <input class="usuario" type="text" placeholder="Nombre y Apellidos">
+                </div>
+                <div class="fila">
+                    <input class="email" type="email" placeholder="Correo electronico">
+                </div>
+                <div class="fila flex-end">
+                    <button type="submit">Enviar</button>
+                </div>
+                <div class="fila flex-center">
+                    <input type="checkbox" id="condiciones">
+                    <label for="condiciones">Acepto las condiciones legales.</label>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="fila">
+        <div class="col-33">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3206.9253605301437!2d-4.9879724531646765!3d36.50766379438683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72d5f775f5abdb%3A0xd018ca52c4dbb5f0!2sMarbella%20Football%20Center!5e0!3m2!1ses!2sco!4v1675304542961!5m2!1ses!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <div class="col-33">
+            <p>Imperial Real State</p>
+            <p class="flex-start"><img class="m-r-small" src="img/map.svg" alt="icono de mapa">Paseo de la constitucion, 12</p>
+            <p>29600 Marbella</p>
+            <p class="flex-start"><img class="m-r-small" src="img/phone.svg" alt="icono de telefono">+573104123307</p>
+            <p class="flex-start"><img class="m-r-small" src="img/mail.svg" alt="icono de email">info@imperial.com</p>
+        </div>
+        
+        <div class="col-33">
+            <div class="flex-around">
+                <img class="rrss" src="img/facebook.svg" alt="icono de faceebok">
+                <img class="rrss" src="img/twitter.svg" alt="icono de twitter">
+                <img class="rrss" src="img/whatsapp.svg" alt="icono de whatsapp">
+                <img class="rrss" src="img/instagram.svg" alt="icono de insta">
+            </div>
+            <div class="flex-around m-t">
+                <a href="contacto.html#aviso">Aviso legal</a>
+                <a href="contacto.html#cookies">Politicas de cookies</a>
+            </div>
+            <p class="copyright m-t">&copy; Imperial Real State All rights reserved</p>
+        </div>
+
+    </footer>
+</body>
+</html>
